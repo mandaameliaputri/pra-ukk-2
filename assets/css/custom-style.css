@@ -1,0 +1,229 @@
+/* GLOBAL FONT */
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #f8f9fc;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* BUTTONS */
+.btn-primary,
+.btn-user,
+.btn-login,
+.btn-register,
+.btn-mulai {
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-user, .btn-login, .btn-mulai {
+    background: #4e73df;
+    color: white;
+    border: 2px solid #4e73df;
+}
+
+.btn-user:hover,
+.btn-login:hover,
+.btn-mulai:hover {
+    background: #224abe;
+    border-color: #224abe;
+    transform: scale(1.03);
+}
+
+.btn-register {
+    background: transparent;
+    color: #4e73df;
+    border: 2px solid #4e73df;
+}
+
+.btn-register:hover {
+    background: #4e73df;
+    color: white;
+    transform: scale(1.03);
+}
+
+/* FORM INPUT */
+.form-control-user {
+    border-radius: 0.5rem;
+    padding: 12px 15px;
+    border: 1px solid #d1d3e2;
+    font-size: 0.95rem;
+}
+
+/* FLASH MESSAGES */
+.alert-danger, .alert-success {
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+/* LINKS */
+.text-center a {
+    display: block;
+    margin-top: 0.5rem;
+    color: #4e73df;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+/* CARD LOGIN / REGISTER */
+.card-login, .card-register {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 5px 20px rgba(78,115,223,0.08);
+    border: 1px solid #e3e6f0;
+}
+
+.card-login h4, .card-register h4 {
+    color: #5a5c69;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.fullscreen-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* LANDING PAGE */
+.navbar-landing {
+    background: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 15px rgba(78, 115, 223, 0.1);
+}
+
+.navbar-brand {
+    color: #4e73df !important;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.hero-section {
+    padding: 60px 0 30px;
+}
+
+.hero-title {
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #5a5c69;
+    line-height: 1.2;
+}
+
+.hero-title span {
+    color: #4e73df;
+    display: block;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    color: #858796;
+    margin: 25px 0 30px;
+    line-height: 1.8;
+}
+
+.hero-image {
+    text-align: center;
+}
+
+.hero-image i {
+    font-size: 12rem;
+    color: #4e73df;
+    opacity: 0.2;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px 0;
+    box-shadow: 0 5px 20px rgba(78, 115, 223, 0.08);
+    border: 1px solid #e3e6f0;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(78, 115, 223, 0.15);
+    border-color: #4e73df;
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(78, 115, 223, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.feature-icon i {
+    font-size: 1.8rem;
+    color: #4e73df;
+}
+
+.feature-card h5 {
+    color: #5a5c69;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #858796;
+    font-size: 0.95rem;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.info-section {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px 0;
+    box-shadow: 0 5px 25px rgba(78, 115, 223, 0.05);
+}
+
+.info-title {
+    color: #5a5c69;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-text {
+    color: #858796;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.section-title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #5a5c69;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: white;
+    padding: 30px 0;
+    margin-top: 60px;
+    border-top: 1px solid #e3e6f0;
+}
+
+.footer p {
+    margin: 0;
+    text-align: center;
+    color: #858796;
+}
